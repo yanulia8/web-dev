@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8" />
+    <title>Lab2</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <script defer src="form.js"></script>
+    <script defer src="table.js"></script>
+</head>
+<body>
+<div class="main-container">
+    <div class="form-container">
+        <form class="form">
+            <p class="form-title">Форма для заповнення:</p>
+            <div class="input-container">
+                <label for="name">ПІБ:</label>
+                <input placeholder="Іванов І.І." type="text" name="name" id="name" />
+            </div>
+            <div class="input-container">
+                <label for="phoneNumber">Телефон:</label>
+                <input placeholder="(123)-456-78-90" type="text" name="phoneNumber" id="phoneNumber" />
+            </div>
+            <div class="input-container">
+                <label for="faculty">Факультет:</label>
+                <input placeholder="ФІОТ" type="text" name="faculty" id="faculty" />
+            </div>
+            <div class="input-container">
+                <label for="dateOfBirth">Дата нар.:</label>
+                <input placeholder="01.01.2024" type="text" name="dateOfBirth" id="dateOfBirth" />
+            </div>
+            <div class="input-container">
+                <label for="address">Адреса:</label>
+                <input placeholder="м. Київ" type="text" name="address" id="address" />
+            </div>
+            <div class="button-container" class="input-container">
+                <input type="submit" value="Підтвердити" />
+            </div>
+        </form>
+    </div>
+    <div class="table-task-container">
+        <input type="color" class="table-cell-color-input"></input>
+        <div class="table-container"></div>
+    </div>
+</div>
+</body>
+</html>

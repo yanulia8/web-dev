@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
+    grid-template-columns: 50vw 50vw;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+    background: lightgrey;
+}
+
+.item-2 {
+    grid-row: 2 / 5;
+    grid-column: 1 / 2;
+    background: dimgrey;
+}
+
+.item-3 {
+    grid-row: 2 / 5;
+    grid-column: 2 / 3;
+    background: grey;
+}
+
+.item-4 {
+    grid-row: 5 / 6;
+    grid-column: 1 / 3;
+    background: darkgrey;
+}

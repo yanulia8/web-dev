@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: Trebuchet MS, Arial, Times New Roman;
+	font-size: 50px;
+}
+
+.container {
+	height: 100vh;
+}
+
+.container img {
+	width: 100%;
+	height: 100%;
+}
+
+#image1 {
+	height: 20%;
+	width: 100%;
+	background: lightgrey;
+}
+
+#text1 {
+	height: 60%;
+	width: 50%;
+	background: dimgrey;
+	float: left;
+}
+
+#text2 {
+	height: 60%;
+	width: 50%;
+	background: grey;
+	float: right;
+}
+
+#image2 {
+	height: 20%;
+	width: 100%;
+	background: darkgrey;
+	clear: left;
+}
